@@ -1,6 +1,5 @@
 import React, { memo } from 'react'
 import { animated, useSpring } from 'react-spring'
-import { useMediaQuery } from 'react-responsive'
 
 import { commonSpring } from '@lib/constants'
 
@@ -19,7 +18,7 @@ const Header: React.FC = () => {
     return (
         <>
             <animated.div className={styles.heading} style={headingStyles}>
-                Alexandr & Veronica
+                Alexandr <span className={styles.span}>and</span> Veronica
             </animated.div>
             <animated.div className={styles.heading2} style={titleStyles}>
                 Countdown to our wedding

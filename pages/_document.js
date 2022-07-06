@@ -30,7 +30,7 @@ export default class MyDocument extends Document {
                         sizes="120x120"
                         href="/public/AV-logo.jpg"
                     />
-                    <title>AV invitation</title>
+                    <title>Alexandr & Veronica</title>
                 </Head>
                 <body>
                     <Main />

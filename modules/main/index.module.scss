@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     width: 100vw;
     height: 100vh;
 
@@ -11,6 +12,10 @@
 
     background: url(https://oir.mobi/uploads/posts/2021-03/1616565767_12-p-fon-uzori-15.jpg);
     background-size: cover;
+}
+
+.ul {
+    z-index: 100;
 }
 
 .li {
@@ -28,6 +33,15 @@
     overflow: hidden;
     display: block;
     font-size: 4.5rem;
+}
+
+.mask {
+    opacity: .5;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    z-index: 10;
 }
 
 @media all and (max-width: 768px) {

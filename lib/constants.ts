@@ -6,7 +6,6 @@ export const commonSpring = {
         opacity: 1,
         color: 'white',
         scale: 1,
-        textShadow: '2px 4px 3px #222',
     },
     config: config.molasses,
 }

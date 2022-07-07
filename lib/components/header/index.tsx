@@ -16,14 +16,14 @@ const Header: React.FC = () => {
     })
 
     return (
-        <>
+        <div className={styles.main}>
             <animated.div className={styles.heading} style={headingStyles}>
                 Alexandr <span className={styles.span}>and</span> Veronica
             </animated.div>
             <animated.div className={styles.heading2} style={titleStyles}>
                 Countdown to our wedding
             </animated.div>
-        </>
+        </div>
     )
 }
 

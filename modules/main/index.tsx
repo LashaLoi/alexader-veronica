@@ -37,6 +37,7 @@ export default function Home() {
                     seconds
                 </li>
             </animated.ul>
+            <div className={styles.mask} />
         </animated.div>
     )
 }
